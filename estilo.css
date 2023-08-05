@@ -1,0 +1,62 @@
+/* importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Londrina+Solid:wght@300;400&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.inicio{
+    width: 100%;
+}
+.inicio .fondo-cielo{
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,0)80%,rgba(255,255,255,1)),
+    url(img/cielo.png);
+    background-size: cover;
+    height: 85%;
+    z-index: -10;
+}
+.inicio .fondo-img{
+    background: url(img/inicio1.png);
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    top: 0;
+    height: 110%;
+    width: 100%;
+    z-index: 5;
+}
+.inicio .contenido-seccion{
+    max-width: 1200px;
+    margin: auto;
+}
+.inicio .contenido-seccion header{
+    padding: 50px 20px;
+    z-index: 100;
+    position: relative;
+}
+.inicio .contenido-seccion header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Londrina Solid';
+}
+.inicio .contenido-seccion header nav a{
+    text-decoration: none;
+    color: #334755;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.inicio .contenido-seccion header nav a i{
+    font-size: 30px;
+}
+.titulo{
+    font-family: 'Finger Paint';
+    text-align:center;
+    font-size: 12rem;
+    color: #334755;
+    position: relative;
+}
