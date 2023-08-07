@@ -202,3 +202,18 @@ h2{
     margin: 20px auto;
     padding: 5px 15px;
 }
+
+/* seccion surfing */
+.surfing{
+    background: url(img/surfing.png);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.surfing .posicion{
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+    color: #ffe538;
+}
