@@ -24,8 +24,8 @@ body{
     background-size: cover;
     background-position: bottom;
     position: absolute;
-    top: 0;
-    height: 110%;
+    top: 10;
+    height: 120%;
     width: 100%;
     z-index: 5;
 }
@@ -231,4 +231,24 @@ h2{
     padding: 10px;
     border: 1px solid #334755;
     text-align: center;
+}
+
+/* seccion es ahora */
+.esahora{
+    background: url(img/esahora.png);
+    background-size: cover;
+    height: 100vh;
+}
+.esahora .redes{
+    text-align: center;
+}
+.esahora .redes a{
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    margin: 0 30px;
+    color: #18385c;
+}
+.esahora .color{
+    color: #18385c;
 }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Mountain</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,17 +14,19 @@
         <div class="fondo-cielo"></div>
         <div class="fondo-img"></div>
         <div class="contenido-seccion">
-            <header><nav>
-                <a href="#">
-                    <i class="fa-solid fa-mountain"></i>
-                    Black Mountain
-                </a>
-                <a href="#">Inicio</a>
-                <a href="#">Lugares</a>
-                <a href="#">Eventos</a>
-                <a href="#">Contactos</a>
-                <a href="#">Login</a>
-            </nav></header>
+            <header>
+                <nav>
+                    <a href="#">
+                        <i class="fa-solid fa-mountain"></i>
+                        Black Mountain
+                    </a>
+                    <a href="#">Inicio</a>
+                    <a href="#">Lugares</a>
+                    <a href="#">Eventos</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Login</a>
+                </nav>
+            </header>
             <div class="titulo efecto1">
                 AVENTURA
             </div>
@@ -72,7 +75,7 @@
 
     <!-- seccion descubrir -->
     <section class="descubrir" id="descubrir">
-        <h2 class="titulo efecto1">Descubrir</h2>
+        <h2 class="titulo efecto2">Descubrir</h2>
         <div class="contenido-seccion">
             <img src="img/descubrir.png" alt="">
             <div class="info">
@@ -112,7 +115,7 @@
     </section>
 
     <!-- seccion surfing -->
-    <section class="surfing" id="surging">
+    <section class="surfing" id="surfing">
         <h2 class="titulo posicion efecto3">Surfing</h2>
     </section>
 
@@ -121,5 +124,17 @@
         <h2>Subscribase para mas Noticias</h2>
         <input type="text" placeholder="ingrese su email">
     </section>
+
+    <!-- seccion es hora -->
+    <section class="esahora" id="esahora">
+        <h2 class="titulo color efecto4">Es ahora</h2>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
 </body>
 </html>
