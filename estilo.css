@@ -217,3 +217,18 @@ h2{
     width: 100%;
     color: #ffe538;
 }
+
+/* seccion subscribirse */
+.subscribase{
+    text-align: center;
+    padding: 60px 0;
+}
+.subscribase input{
+    display: inline-block;
+    margin-top: 20px;
+    width: 400px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #334755;
+    text-align: center;
+}
